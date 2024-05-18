@@ -1,9 +1,5 @@
-Los Angeles, CA, USA
-Phoenix, AZ, USA
-Las Vegas, NV, USA
-San Francisco, CA, USA
-Seattle, WA, USA
-Denver, CO, USA
-Chicago, IL, USA
-Houston, TX, USA
-Miami, FL, USA
+Carrer del Talió, 7, 08193 Cerdanyola del Vallès, Barcelona, Spain
+Av. Miquel Servet, 08193 Bellaterra, Barcelona, Spain
+Carrer Universitat Autònoma B, 303, 08193 Cerdanyola del Vallès, Barcelona, Spain
+Carrer de Sant Pere, 23, 08210 Barberà del Vallès, Barcelona, Spain
+Carrer de Madrid, 58b, 08191 Rubí, Barcelona, Spain

@@ -1,9 +1,5 @@
-Los Angeles, CA
-San Francisco, CA
-Las Vegas, NV
-Phoenix, AZ
-Seattle, WA
-Denver, CO
-Chicago, IL
-Houston, TX
-Miami, FL
+41.494692, 2.080715
+41.503825, 2.086509
+41.508599, 2.092677
+41.517430, 2.127647
+41.497559, 2.039099

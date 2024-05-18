@@ -1,4 +1,5 @@
 import webbrowser
+from urllib.parse import quote
 
 def open_google_maps(start, destinations, end, start_from_current=False):
     base_url = "https://www.google.com/maps/dir/?api=1"
@@ -7,14 +8,14 @@ def open_google_maps(start, destinations, end, start_from_current=False):
     if start_from_current:
         origin = "origin=Current+Location"
     else:
-        origin = f"origin={start.replace(' ', '+')}"
+        origin = f"origin={quote(start)}"
     
-    destination = f"destination={end.replace(' ', '+')}"
+    destination = f"destination={quote(end)}"
     
     waypoints = ""
     if destinations:
-        formatted_waypoints = [dest.replace(' ', '+') for dest in destinations]
-        waypoints = f"&waypoints={'|'.join(formatted_waypoints)}"
+        formatted_waypoints = [quote(dest) for dest in destinations]
+        waypoints = "&waypoints=" + '|'.join(formatted_waypoints)
     
     # Construct the full URL
     full_url = f"{base_url}&{origin}&{destination}{waypoints}"
@@ -23,7 +24,7 @@ def open_google_maps(start, destinations, end, start_from_current=False):
     webbrowser.open(full_url)
 
 def load_destinations(file_path):
-    with open(file_path, 'r') as file:
+    with open(file_path, 'r', encoding='utf-8') as file:
         destinations = [line.strip() for line in file.readlines()]
     return destinations
 

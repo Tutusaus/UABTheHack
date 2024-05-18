@@ -32,7 +32,7 @@ def write_sorted_locations_to_file(sorted_locations, output_file):
     """
     Writes sorted locations to a text file.
     """
-    with open(output_file, 'w') as file:
+    with open(output_file, 'w', encoding='utf-8') as file:
         for location in sorted_locations:
             file.write(location + '\n')
 
