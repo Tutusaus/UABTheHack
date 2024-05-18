@@ -1,10 +1,14 @@
 import webbrowser
 
-def open_google_maps(start, destinations, end):
+def open_google_maps(start, destinations, end, start_from_current=False):
     base_url = "https://www.google.com/maps/dir/?api=1"
     
     # Format the origin, destination, and waypoints
-    origin = f"origin={start.replace(' ', '+')}"
+    if start_from_current:
+        origin = "origin=Current+Location"
+    else:
+        origin = f"origin={start.replace(' ', '+')}"
+    
     destination = f"destination={end.replace(' ', '+')}"
     
     waypoints = ""
@@ -25,11 +29,19 @@ def load_destinations(file_path):
 
 if __name__ == "__main__":
     # Load destinations from the file
-    file_path = 'destinations.txt'
+    file_path = 'Ruta 2 _column_E.txt'
     destinations = load_destinations(file_path)
 
-    # Prompt the user to enter the starting and ending locations
-    start = input("Enter the starting location: ")
+    # Prompt the user to choose the starting location option
+    start_option = input("Do you want to start the route from your current location? (yes/no): ").lower()
+    if start_option == "yes":
+        start_from_current = True
+        start = None  # No need for a starting point if starting from current location
+    else:
+        start_from_current = False
+        start = input("Enter the starting location: ")
+    
+    # Prompt the user to enter the ending location
     end = input("Enter the ending location: ")
 
-    open_google_maps(start, destinations, end)
+    open_google_maps(start, destinations, end, start_from_current)
