@@ -1,4 +1,5 @@
 import tkinter as tk
+from PIL import Image, ImageTk
 
 def execute_program():
     # Get the values entered by the user
@@ -19,6 +20,16 @@ def execute_program():
 root = tk.Tk()
 root.title("Caixa d'Enginyers: BANCA COOPERATIVA")
 root.geometry("450x200")
+
+# Load your custom icon
+icon_path = "logo.png"  # Replace "your_icon.png" with the path to your PNG icon file
+
+# Open and convert the PNG image to a format usable by Tkinter
+icon_image = Image.open(icon_path)
+icon_photo = ImageTk.PhotoImage(icon_image)
+
+# Set the custom icon
+root.iconphoto(True, icon_photo)
 
 # Title label
 title_label = tk.Label(root, text="BENVINGUT A BANCA D'ENGINYERS")

@@ -1,5 +1,5 @@
 import tkinter as tk
-import openpyxl
+from PIL import Image, ImageTk
 
 def execute_program():
     # Get the values entered by the user
@@ -9,67 +9,27 @@ def execute_program():
         inici_location = start_entry.get()
 
     end_location = end_entry.get()
-    lot = ruta_var.get()
+    route = ruta_var.get()
 
     # Print the values for demonstration
     print("Començament del trajecte:", inici_location)
     print("Final del trajecte:", end_location)
-    print("Lot:", lot)
-
-    # Open the Excel file
-    workbook = openpyxl.load_workbook('Dades_Municipis.xlsx')
-    # Get the names of all the sheets in the workbook
-    sheet_names = workbook.sheetnames
-
-    # Ask the user to select a sheet
-    if lot == '2':
-        lot = int(lot)
-        lot = lot-1
-    elif lot == '4':
-        lot = int(lot)
-        lot = lot-2
-    elif lot == '5':
-        lot = int(lot)
-        lot = lot-3
-    selected_sheet_name = sheet_names[lot]  # Adjust for 0-based indexing
-    # Access the selected sheet
-    sheet = workbook[selected_sheet_name]
-        
-    # Get the dimensions of the sheet (number of rows and columns)
-    max_row = sheet.max_row
-    max_column = sheet.max_column
-
-    # Print the names of all the columns in the selected sheet
-    print("Available Columns:")
-    for col in range(1, max_column + 1):
-        column_letter = openpyxl.utils.get_column_letter(col)
-        print(f"{col}. {column_letter}")
-
-    # Ask the user to select a column
-    selected_column_idx = int(input("Enter the index of the column you want to extract: "))
-    selected_column_letter = openpyxl.utils.get_column_letter(selected_column_idx)
-
-    # Extract the values from the selected column
-    column_values = []
-    for row in range(1, max_row + 1):
-        cell_value = sheet[selected_column_letter + str(row)].value
-        column_values.append(cell_value)
-
-    # Create a .txt file and write the extracted column values to it
-    output_file_path = f"{selected_sheet_name}_column_{selected_column_letter}.txt"
-    with open(output_file_path, 'w') as txt_file:
-        for value in column_values:
-            txt_file.write(str(value) + '\n')
-
-    print(f"Column values saved to '{output_file_path}'")
-
-    # Close the workbook when done
-    workbook.close()
+    print("Lot:", route)
 
 # Create the main application window
 root = tk.Tk()
 root.title("Caixa d'Enginyers: BANCA COOPERATIVA")
 root.geometry("450x200")
+
+# Load your custom icon
+icon_path = "logo.png"  # Replace "your_icon.png" with the path to your PNG icon file
+
+# Open and convert the PNG image to a format usable by Tkinter
+icon_image = Image.open(icon_path)
+icon_photo = ImageTk.PhotoImage(icon_image)
+
+# Set the custom icon
+root.iconphoto(True, icon_photo)
 
 # Title label
 title_label = tk.Label(root, text="BENVINGUT A BANCA D'ENGINYERS")
