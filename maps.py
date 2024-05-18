@@ -29,7 +29,7 @@ def load_destinations(file_path):
 
 if __name__ == "__main__":
     # Load destinations from the file
-    file_path = 'Ruta 2 _column_E.txt'
+    file_path = 'sorted_locations.txt'
     destinations = load_destinations(file_path)
 
     # Prompt the user to choose the starting location option

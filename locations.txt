@@ -1,0 +1,9 @@
+Los Angeles, CA
+San Francisco, CA
+Las Vegas, NV
+Phoenix, AZ
+Seattle, WA
+Denver, CO
+Chicago, IL
+Houston, TX
+Miami, FL
