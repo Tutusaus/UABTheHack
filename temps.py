@@ -1,10 +1,18 @@
+
 import pandas as pd
 
-def calculate_time(population):
+def calculate_time(population, altitude):
     if population < 250:
-        return 30  # 30 minutes
+        base_time = 30  # 30 minutes
     else:
-        return 60  # 1 hour
+        base_time = 60  # 1 hour
+    
+    if altitude > 800:
+        altitude_difference = altitude - 800
+        extra_time = altitude_difference * 0.005 * base_time  # 0.5% increment for each meter above 800m
+        return base_time + extra_time
+    else:
+        return base_time
 
 # Read the Excel file
 file_path = 'output.xlsx'  # Update with your file path
@@ -18,7 +26,7 @@ time_spent_list = []
 with open(output_file_path, 'w', encoding='utf-8') as f:
     # Iterate over each row in the DataFrame
     for index, row in df.iterrows():
-        time_spent = calculate_time(row['Population'])
+        time_spent = calculate_time(row['Population'], row['Altitude'])
         time_spent_list.append(time_spent)
         f.write(f"Temps d'espera a {row['Municipality']}: {time_spent} minuts\n")
 
@@ -28,6 +36,6 @@ with open(output_file_path, 'w', encoding='utf-8') as f:
     total_time_hours = total_time / 60
     # Write total time spent in hours
 
-    f.write(f"\Temps d'espera totals : {total_time_hours:.2f} hours\n")
+    f.write(f"\nTemps d'espera totals : {total_time_hours:.2f} hours\n")
 
 print("Time spent saved to time_spent.txt")

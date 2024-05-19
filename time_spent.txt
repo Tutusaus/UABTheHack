@@ -1,0 +1,315 @@
+Temps d'espera a Calonge de Segarra: 30 minuts
+Temps d'espera a Castellfollit de Riubregós: 60 minuts
+Temps d'espera a Prats de Rei: 60 minuts
+Temps d'espera a Pujalt: 60 minuts
+Temps d'espera a Sant Pere Sallavinera: 30 minuts
+Temps d'espera a Sant Martí Sesgueioles: 60 minuts
+Temps d'espera a Argençola: 60 minuts
+Temps d'espera a Copons: 30 minuts
+Temps d'espera a Jorba: 30.9 minuts
+Temps d'espera a Montmaneu: 30 minuts
+Temps d'espera a Rubió: 60 minuts
+Temps d'espera a Veciana: 60 minuts
+Temps d'espera a Bellprat: 30 minuts
+Temps d'espera a Bruc: 242.7 minuts
+Temps d'espera a Castellolí: 30 minuts
+Temps d'espera a Orpí: 60 minuts
+Temps d'espera a Santa Maria de Miralles: 30 minuts
+Temps d'espera a Cabrera d'Anoia: 301.8 minuts
+Temps d'espera a Torre de Claramunt: 504.9 minuts
+Temps d'espera a Vallbona d'Anoia: 118.05 minuts
+Temps d'espera a Llacuna: 51.3 minuts
+Temps d'espera a Conesa: 30 minuts
+Temps d'espera a Llorac: 30 minuts
+Temps d'espera a Passanant i Belltall: 30 minuts
+Temps d'espera a Piles: 30 minuts
+Temps d'espera a Savallà del Comtat: 30 minuts
+Temps d'espera a Vallfogona de Riucorb: 60 minuts
+Temps d'espera a Forès: 30 minuts
+Temps d'espera a Rocafort de Queralt: 60 minuts
+Temps d'espera a Carme: 60 minuts
+Temps d'espera a Mediona: 287.55 minuts
+Temps d'espera a Font-rubí: 253.8 minuts
+Temps d'espera a Pontons: 60 minuts
+Temps d'espera a Torrelles de Foix: 587.1 minuts
+Temps d'espera a Cabanyes: 119.7 minuts
+Temps d'espera a Pacs del Penedès: 100.5 minuts
+Temps d'espera a Sant Cugat Sesgarrigues: 61.349999999999994 minuts
+Temps d'espera a Santa Fe del Penedès: 60 minuts
+Temps d'espera a Vilobí del Penedès: 60 minuts
+Temps d'espera a Castellet i la Gornal: 562.2 minuts
+Temps d'espera a Albinyana: 594.3 minuts
+Temps d'espera a Bonastre: 60 minuts
+Temps d'espera a Santa Oliva: 60 minuts
+Temps d'espera a Olivella: 1121.7 minuts
+Temps d'espera a Olesa de Bonesvalls: 424.8 minuts
+Temps d'espera a Puigdàlber: 30 minuts
+Temps d'espera a Sant Llorenç d'Hortons: 285.45000000000005 minuts
+Temps d'espera a Subirats: 396.15 minuts
+Temps d'espera a Torrelavit: 257.1 minuts
+Temps d'espera a Masllorenç: 30 minuts
+Temps d'espera a Montmell: 189.45000000000002 minuts
+Temps d'espera a Salomó: 30 minuts
+Temps d'espera a Vespella de Gaià: 60 minuts
+Temps d'espera a Blancafort: 60 minuts
+Temps d'espera a Pira: 30 minuts
+Temps d'espera a Senan: 60 minuts
+Temps d'espera a Aiguamúrcia: 108.30000000000001 minuts
+Temps d'espera a Cabra del Camp: 98.1 minuts
+Temps d'espera a Querol: 30 minuts
+Temps d'espera a Pontils: 30 minuts
+Temps d'espera a Figuerola del Camp: 60 minuts
+Temps d'espera a Montferri: 60 minuts
+Temps d'espera a Rodonyà: 30 minuts
+Temps d'espera a Vallclara: 30 minuts
+Temps d'espera a Vilanova de Prades: 60 minuts
+Temps d'espera a Mont-ral: 60 minuts
+Temps d'espera a Riba: 60 minuts
+Temps d'espera a Vilaverd: 60 minuts
+Temps d'espera a Garidells: 30 minuts
+Temps d'espera a Masó: 60 minuts
+Temps d'espera a Milà: 30 minuts
+Temps d'espera a Vallmoll: 384.6 minuts
+Temps d'espera a Alió: 60 minuts
+Temps d'espera a Bràfim: 60 minuts
+Temps d'espera a Puigpelat: 179.7 minuts
+Temps d'espera a Vilabella: 30 minuts
+Temps d'espera a Nulles: 60 minuts
+Temps d'espera a Rourell: 30 minuts
+Temps d'espera a Argentera: 30 minuts
+Temps d'espera a Botarell: 150.6 minuts
+Temps d'espera a Colldejou: 60 minuts
+Temps d'espera a Pratdip: 30 minuts
+Temps d'espera a Riudecanyes: 203.7 minuts
+Temps d'espera a Vilanova d'Escornalbou: 60 minuts
+Temps d'espera a Aleixar: 48.6 minuts
+Temps d'espera a Alforja: 199.2 minuts
+Temps d'espera a Duesaigües: 60 minuts
+Temps d'espera a Maspujols: 77.7 minuts
+Temps d'espera a Riudecols: 89.7 minuts
+Temps d'espera a Arbolí: 30 minuts
+Temps d'espera a Capafonts: 60 minuts
+Temps d'espera a Febró: 30 minuts
+Temps d'espera a Vilaplana: 60 minuts
+Temps d'espera a Albiol: 60 minuts
+Temps d'espera a Almoster: 220.2 minuts
+Temps d'espera a Perafort: 207.6 minuts
+Temps d'espera a Pobla de Mafumet: 517.8000000000001 minuts
+Temps d'espera a Vilallonga del Camp: 539.4000000000001 minuts
+Temps d'espera a Nou de Gaià: 60 minuts
+Temps d'espera a Riera de Gaià: 172.79999999999998 minuts
+Temps d'espera a Catllar: 1296.3 minuts
+Temps d'espera a Secuita: 174.75 minuts
+Temps d'espera a Renau: 60 minuts
+Temps d'espera a Campllong: 30 minuts
+Temps d'espera a Llambilles: 60 minuts
+Temps d'espera a Sant Andreu Salou: 60 minuts
+Temps d'espera a Massanes: 67.5 minuts
+Temps d'espera a Sant Feliu de Buixalleu: 35.85 minuts
+Temps d'espera a Aiguaviva: 60 minuts
+Temps d'espera a Sant Martí de Llémena: 60 minuts
+Temps d'espera a Brunyola i Sant Martí Sapresa: 30 minuts
+Temps d'espera a Osor: 30 minuts
+Temps d'espera a Susqueda: 30 minuts
+Temps d'espera a Sant Miquel de
+Campmajor: 60 minuts
+Temps d'espera a Mieres: 60 minuts
+Temps d'espera a Sant Aniol de Finestres: 30 minuts
+Temps d'espera a Canet d'Adri: 30 minuts
+Temps d'espera a Camós: 30 minuts
+Temps d'espera a Palau-sator: 60 minuts
+Temps d'espera a Regencós: 30 minuts
+Temps d'espera a Vall-llobrega: 97.8 minuts
+Temps d'espera a Cruïlles, Monells i Sant
+Sadurní de l'Heura: 110.7 minuts
+Temps d'espera a Forallac: 174.75 minuts
+Temps d'espera a Parlavà: 30 minuts
+Temps d'espera a Pera: 30 minuts
+Temps d'espera a Rupià: 30 minuts
+Temps d'espera a Juià: 30 minuts
+Temps d'espera a Madremanya: 30 minuts
+Temps d'espera a Sant Martí Vell: 30 minuts
+Temps d'espera a Corçà: 200.39999999999998 minuts
+Temps d'espera a Foixà: 30 minuts
+Temps d'espera a Fontanilles: 60 minuts
+Temps d'espera a Gualta: 60 minuts
+Temps d'espera a Serra de Daró: 30 minuts
+Temps d'espera a Ullà: 178.5 minuts
+Temps d'espera a Colomers: 60 minuts
+Temps d'espera a Garrigoles: 60 minuts
+Temps d'espera a Tallada d'Empordà: 60 minuts
+Temps d'espera a Vilopriu: 60 minuts
+Temps d'espera a Cervià de Ter: 59.85 minuts
+Temps d'espera a Palol de Revardit: 60 minuts
+Temps d'espera a Ventalló: 93.30000000000001 minuts
+Temps d'espera a Viladamat: 60 minuts
+Temps d'espera a Albons: 60 minuts
+Temps d'espera a Bellcaire d'Empordà: 60 minuts
+Temps d'espera a Sant Miquel de Fluvià: 62.4 minuts
+Temps d'espera a Torroella de Fluvià: 60 minuts
+Temps d'espera a Vilaür: 60 minuts
+Temps d'espera a Vilamacolum: 30 minuts
+Temps d'espera a Vilademuls: 36.0 minuts
+Temps d'espera a Maià de Montcal: 30 minuts
+Temps d'espera a Sant Ferriol: 60 minuts
+Temps d'espera a Crespià: 30 minuts
+Temps d'espera a Esponellà: 30 minuts
+Temps d'espera a Fontcoberta: 129.9 minuts
+Temps d'espera a Argelaguer: 60 minuts
+Temps d'espera a Riudaura: 60 minuts
+Temps d'espera a Sant Jaume de Llierca: 36.3 minuts
+Temps d'espera a Vall de Bianya: 223.5 minuts
+Temps d'espera a Albanyà: 60 minuts
+Temps d'espera a Montagut i Oix: 53.7 minuts
+Temps d'espera a Sales de Llierca: 30 minuts
+Temps d'espera a Tortellà: 33.45 minuts
+Temps d'espera a Borrassà: 60 minuts
+Temps d'espera a Siurana: 60 minuts
+Temps d'espera a Garrigàs: 30 minuts
+Temps d'espera a Navata: 129.75 minuts
+Temps d'espera a Far d'Empordà: 60 minuts
+Temps d'espera a Fortià: 60 minuts
+Temps d'espera a Riumors: 60 minuts
+Temps d'espera a Santa Llogaia d'Àlguema: 60 minuts
+Temps d'espera a Vila-sacra: 30 minuts
+Temps d'espera a Cabanes: 104.7 minuts
+Temps d'espera a Pau: 30 minuts
+Temps d'espera a Pedret i Marzà: 60 minuts
+Temps d'espera a Selva de Mar: 60 minuts
+Temps d'espera a Avinyonet de Puigventós: 322.8 minuts
+Temps d'espera a Cabanelles: 60 minuts
+Temps d'espera a Lladó: 34.05 minuts
+Temps d'espera a Vilanant: 60 minuts
+Temps d'espera a Boadella i les Escaules: 30 minuts
+Temps d'espera a Cistella: 30 minuts
+Temps d'espera a Sant Llorenç de la Muga: 60 minuts
+Temps d'espera a Terrades: 60 minuts
+Temps d'espera a Masarac: 30 minuts
+Temps d'espera a Mollet de Peralada: 60 minuts
+Temps d'espera a Capmany: 60 minuts
+Temps d'espera a Pont de Molins: 30 minuts
+Temps d'espera a Espolla: 30 minuts
+Temps d'espera a Rabós: 60 minuts
+Temps d'espera a Vilamaniscle: 60 minuts
+Temps d'espera a Vajol: 30 minuts
+Temps d'espera a Cantallops: 30 minuts
+Temps d'espera a Ordis: 60 minuts
+Temps d'espera a Palau de Santa Eulàlia: 30 minuts
+Temps d'espera a Pontós: 60 minuts
+Temps d'espera a Vilafant: 1488.6 minuts
+Temps d'espera a Vilamalla: 169.8 minuts
+Temps d'espera a Biure: 60 minuts
+Temps d'espera a Beuda: 30 minuts
+Temps d'espera a Jafre: 60 minuts
+Temps d'espera a Torrent: 60 minuts
+Temps d'espera a Ultramort: 30 minuts
+Temps d'espera a Ullastret: 60 minuts
+Temps d'espera a Sant Joan de Mollet: 30 minuts
+Temps d'espera a Viladasens: 60 minuts
+Temps d'espera a Fogars de la Selva: 289.20000000000005 minuts
+Temps d'espera a Marganell: 30 minuts
+Temps d'espera a Castellví de Rosanes: 448.8 minuts
+Temps d'espera a Collbató: 1237.8 minuts
+Temps d'espera a Rellinars: 94.5 minuts
+Temps d'espera a Ullastrell: 230.85000000000002 minuts
+Temps d'espera a Òrrius: 60 minuts
+Temps d'espera a Santa Maria de Martorelles: 86.7 minuts
+Temps d'espera a Vallgorguina: 381.6 minuts
+Temps d'espera a Vilalba Sasserra: 30 minuts
+Temps d'espera a Campins: 30 minuts
+Temps d'espera a Cànoves i Samalús: 806.7 minuts
+Temps d'espera a Fogars de Montclús: 60 minuts
+Temps d'espera a Gualba: 151.5 minuts
+Temps d'espera a Sant Pere de Vilamajor: 632.25 minuts
+Temps d'espera a Castellfollit del Boix: 30 minuts
+Temps d'espera a Castellgalí: 490.79999999999995 minuts
+Temps d'espera a Mura: 30 minuts
+Temps d'espera a Talamanca: 60 minuts
+Temps d'espera a Sant Llorenç Savall: 288.6 minuts
+Temps d'espera a Gallifa: 30 minuts
+Temps d'espera a Tagamanent: 30 minuts
+Temps d'espera a Figaró-Montmany: 76.2 minuts
+Temps d'espera a Montseny: 30 minuts
+Temps d'espera a Sant Esteve de Palautordera: 366.45 minuts
+Temps d'espera a Aguilar de Segarra: 30 minuts
+Temps d'espera a Fonollosa: 141.9 minuts
+Temps d'espera a Rajadell: 60 minuts
+Temps d'espera a Castellnou de Bages: 124.65 minuts
+Temps d'espera a Sant Mateu de Bages: 60 minuts
+Temps d'espera a Granera: 60 minuts
+Temps d'espera a Monistrol de Calders: 30 minuts
+Temps d'espera a Sant Quirze Safaja: 60 minuts
+Temps d'espera a Calders: 150.3 minuts
+Temps d'espera a Castellcir: 60 minuts
+Temps d'espera a Collsuspina: 60 minuts
+Temps d'espera a Estany: 60 minuts
+Temps d'espera a Sant Feliu Sasserra: 30 minuts
+Temps d'espera a Viver i Serrateix: 60 minuts
+Temps d'espera a Sagàs: 60 minuts
+Temps d'espera a Santa Maria de Merlès: 60 minuts
+Temps d'espera a Olost: 181.8 minuts
+Temps d'espera a Oristà: 60 minuts
+Temps d'espera a Sant Martí d'Albars: 60 minuts
+Temps d'espera a Sobremunt: 60 minuts
+Temps d'espera a Olvan: 82.8 minuts
+Temps d'espera a Lluçà: 30 minuts
+Temps d'espera a Perafita: 30 minuts
+Temps d'espera a Alpens: 30 minuts
+Temps d'espera a Malla: 60 minuts
+Temps d'espera a Muntanyola: 30 minuts
+Temps d'espera a Folgueroles: 248.10000000000002 minuts
+Temps d'espera a Santa Eugènia de Berga: 248.4 minuts
+Temps d'espera a Santa Eulàlia de Riuprimer: 240.29999999999998 minuts
+Temps d'espera a Vilanova de Sau: 60 minuts
+Temps d'espera a Sant Martí de Centelles: 94.80000000000001 minuts
+Temps d'espera a Gurb: 630.6 minuts
+Temps d'espera a Masies de Roda: 60 minuts
+Temps d'espera a Santa Cecília de Voltregà: 30 minuts
+Temps d'espera a Tavertet: 30 minuts
+Temps d'espera a Rupit i Pruit: 30 minuts
+Temps d'espera a Sant Bartomeu del Grau: 97.2 minuts
+Temps d'espera a Masies de Voltregà: 759.9000000000001 minuts
+Temps d'espera a Orís: 30 minuts
+Temps d'espera a Sant Boi de Lluçanès: 30 minuts
+Temps d'espera a Santa Maria de Besora: 60 minuts
+Temps d'espera a Sant Vicenç de Torelló: 443.09999999999997 minuts
+Temps d'espera a Sora: 60 minuts
+Temps d'espera a Vidrà: 60 minuts
+Temps d'espera a Montesquiu: 68.85 minuts
+Temps d'espera a Sant Agustí de Lluçanès: 60 minuts
+Temps d'espera a Tavèrnoles: 30 minuts
+Temps d'espera a Sant Sadurní d'Osormort: 60 minuts
+Temps d'espera a Espinelves: 60 minuts
+Temps d'espera a Brull: 60 minuts
+Temps d'espera a Espunyola: 60 minuts
+Temps d'espera a Montclar: 30 minuts
+Temps d'espera a Capolat: 60 minuts
+Temps d'espera a Castellar del Riu: 30 minuts
+Temps d'espera a Fígols: 30 minuts
+Temps d'espera a Nou de Berguedà: 60 minuts
+Temps d'espera a Quar: 60 minuts
+Temps d'espera a Vilada: 30 minuts
+Temps d'espera a Llosses: 60 minuts
+Temps d'espera a Vallfogona de Ripollès: 60 minuts
+Temps d'espera a Borredà: 30 minuts
+Temps d'espera a Castell de l'Areny: 30 minuts
+Temps d'espera a Sant Jaume de Frontanyà: 60 minuts
+Temps d'espera a Vallcebre: 60 minuts
+Temps d'espera a Sant Julià de Cerdanyola: 30 minuts
+Temps d'espera a Gisclareny: 30 minuts
+Temps d'espera a Saldes: 60 minuts
+Temps d'espera a Gósol: 30 minuts
+Temps d'espera a Castellar de n'Hug: 60 minuts
+Temps d'espera a Campelles: 60 minuts
+Temps d'espera a Gombrèn: 60 minuts
+Temps d'espera a Planoles: 60 minuts
+Temps d'espera a Toses: 30 minuts
+Temps d'espera a Setcases: 60 minuts
+Temps d'espera a Llanars: 60 minuts
+Temps d'espera a Molló: 30 minuts
+Temps d'espera a Ogassa: 60 minuts
+Temps d'espera a Vilallonga de Ter: 30 minuts
+Temps d'espera a Pardines: 60 minuts
+Temps d'espera a Queralbs: 60 minuts
+
+Temps d'espera totals : 577.14 hours
