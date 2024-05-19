@@ -33,16 +33,11 @@ if __name__ == "__main__":
     file_path = 'sorted_locations.txt'
     destinations = load_destinations(file_path)
 
-    # Prompt the user to choose the starting location option
-    start_option = input("Do you want to start the route from your current location? (yes/no): ").lower()
-    if start_option == "yes":
-        start_from_current = True
-        start = None  # No need for a starting point if starting from current location
-    else:
-        start_from_current = False
-        start = input("Enter the starting location: ")
-    
-    # Prompt the user to enter the ending location
-    end = input("Enter the ending location: ")
+    # Assign the first and last lines to start and end
+    start = destinations[0]
+    end = destinations[-1]
 
-    open_google_maps(start, destinations, end, start_from_current)
+    # Use the remaining lines as waypoints
+    waypoints = destinations[1:-1]
+
+    open_google_maps(start, waypoints, end)

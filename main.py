@@ -1,25 +1,60 @@
 import tkinter as tk
 from PIL import Image, ImageTk
+import geocoder
+import webbrowser
+from urllib.parse import quote
+
+def open_google_maps(start_location, end_location, waypoints):
+    base_url = "https://www.google.com/maps/dir/?api=1"
+    
+    # Choose the first 8 waypoints from the list
+    if len(waypoints) > 8:
+        waypoints = waypoints[:8]
+    
+    # Encode the locations for the URL
+    start_encoded = quote(start_location)
+    end_encoded = quote(end_location)
+    waypoints_encoded = '|'.join(quote(wp) for wp in waypoints)
+    
+    origin = f"origin={start_encoded}"
+    destination = f"destination={end_encoded}"
+    waypoints_param = f"&waypoints={waypoints_encoded}" if waypoints_encoded else ''
+    full_url = f"{base_url}&{origin}&{destination}{waypoints_param}"
+    
+    webbrowser.open(full_url)
+
+def read_locations_from_file(file_path):
+    """
+    Reads locations from a text file.
+    """
+    with open(file_path, 'r', encoding='utf-8') as file:
+        locations = [line.strip() for line in file]
+    return locations
 
 def execute_program():
     # Get the values entered by the user
     if start_choice_var.get() == "Ubicació actual":
-        inici_location = "Ubicació actual"
+        g = geocoder.ip('me')
+        start_location = ','.join(map(str, g.latlng))  # Get the current location's latitude and longitude
     else:
-        inici_location = start_entry.get()
+        start_location = start_entry.get()
 
     end_location = end_entry.get()
-    route = ruta_var.get()
+    locations_file_path = 'sorted_locations.txt'  # Specify your sorted_locations.txt file path
+    waypoints = read_locations_from_file(locations_file_path)
 
     # Print the values for demonstration
-    print("Començament del trajecte:", inici_location)
+    print("Començament del trajecte:", start_location)
     print("Final del trajecte:", end_location)
-    print("Lot:", route)
+    print("Waypoints:", waypoints)
+    
+    # Open Google Maps with the selected locations
+    open_google_maps(start_location, end_location, waypoints)
 
 # Create the main application window
 root = tk.Tk()
 root.title("Caixa d'Enginyers: BANCA COOPERATIVA")
-root.geometry("450x200")
+root.geometry("450x250")
 
 # Load your custom icon
 icon_path = "logo.png"  # Replace "your_icon.png" with the path to your PNG icon file
@@ -39,8 +74,8 @@ title_label.grid(row=0, column=0, columnspan=2, padx=10, pady=10)
 start_label = tk.Label(root, text="Inici:")
 start_label.grid(row=1, column=0, padx=10, pady=5, sticky="e")
 start_choice_var = tk.StringVar()
-start_choice_var.set("Localització actual")  # Default choice
-start_choice_dropdown = tk.OptionMenu(root, start_choice_var, "Localització actual", "Tria una localització")
+start_choice_var.set("Ubicació actual")  # Default choice
+start_choice_dropdown = tk.OptionMenu(root, start_choice_var, "Ubicació actual", "Tria una localització")
 start_choice_dropdown.grid(row=1, column=1, padx=10, pady=5)
 
 start_entry = tk.Entry(root)

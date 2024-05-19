@@ -16,16 +16,30 @@ def get_optimized_route(locations):
     """
     Uses the Google Maps Directions API to get the shortest route.
     """
-    # Create a request for the Google Maps Directions API
-    directions_result = gmaps.directions(
-        origin=locations[0],
-        destination=locations[-1],
-        waypoints=locations[1:-1],
-        optimize_waypoints=True  # Key for route optimization
-    )
+    total_waypoints = len(locations) - 2  # Excluding the start and end locations
+    max_waypoints_per_request = 25
+    num_requests = (total_waypoints + max_waypoints_per_request - 1) // max_waypoints_per_request
 
-    # Extract the optimized route information
-    route = directions_result[0]['legs']
+    # Initialize the route
+    route = []
+
+    # Make multiple requests to handle all waypoints
+    for i in range(num_requests):
+        start_index = i * (max_waypoints_per_request - 2)
+        end_index = min(start_index + max_waypoints_per_request - 1, total_waypoints)  # Exclude start and end
+        waypoints_chunk = locations[start_index:end_index]
+        
+        # Create a request for the Google Maps Directions API
+        directions_result = gmaps.directions(
+            origin=locations[0],
+            destination=locations[-1],
+            waypoints=waypoints_chunk,
+            optimize_waypoints=True  # Key for route optimization
+        )
+
+        # Extract the route information from the response
+        route.extend(directions_result[0]['legs'])
+
     return route
 
 def write_sorted_locations_to_file(sorted_locations, output_file):
