@@ -7,10 +7,6 @@ from urllib.parse import quote
 def open_google_maps(start_location, end_location, waypoints):
     base_url = "https://www.google.com/maps/dir/?api=1"
     
-    # Choose the first 8 waypoints from the list
-    if len(waypoints) > 8:
-        waypoints = waypoints[:8]
-    
     # Encode the locations for the URL
     start_encoded = quote(start_location)
     end_encoded = quote(end_location)
@@ -42,6 +38,10 @@ def execute_program():
     end_location = end_entry.get()
     locations_file_path = 'sorted_locations.txt'  # Specify your sorted_locations.txt file path
     waypoints = read_locations_from_file(locations_file_path)
+    
+    # Select the first 8 waypoints
+    if len(waypoints) > 8:
+        waypoints = waypoints[:8]
 
     # Print the values for demonstration
     print("Començament del trajecte:", start_location)
