@@ -4,6 +4,14 @@ import geocoder
 import webbrowser
 from urllib.parse import quote
 
+#
+#
+#
+#       AQUESTA HARIA DE SER LA NOSTRA APLICACIÓ
+#
+#
+#
+
 def open_google_maps(start_location, end_location, waypoints):
     base_url = "https://www.google.com/maps/dir/?api=1"
     

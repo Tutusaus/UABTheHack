@@ -1,7 +1,7 @@
 import googlemaps
 
 # Replace with your Google Maps API key
-API_KEY = 'AIzaSyDm2j6XB4FX6e8rZ5F0GsjVv_2CNvQqz_8'
+API_KEY = 'POSAR AQUI LA API DE GOOGLE'
 gmaps = googlemaps.Client(key=API_KEY)
 
 def read_locations_from_file(file_path):

@@ -1,5 +1,17 @@
 import openpyxl
 
+#
+#
+#
+#
+#       AQUESTA ÉS LA APP QUE EN UN MOMENT ENS VA SERVIR PER 
+#       ACCEDIR A LES DADES DINS EL FITXER DADES_MUNICIPIS
+#       I EXTREURE EN FORMAT .TXT UN FITXER AMB LA COLUMNA
+#       SEL·LECCIONADA
+#
+#
+
+
 # Open the Excel file
 workbook = openpyxl.load_workbook('Dades_Municipis.xlsx')
 
