@@ -1,6 +1,6 @@
 # Hackathon Project: Mobile Banking Service Optimization
 
-In May 18-19 2024, I had the incredible opportunity to participate in a hackathon at Universitat Autònoma de Barcelona. This event allowed me to collaborate with a talented team to tackle real-world challenges and innovate in meaningful ways. For more details, you can read the official [news article](https://www.3cat.cat/3cat/hackato-denginyeria-a-la-uab-per-resoldre-reptes-reals-de-les-empreses/video/6283117/)) covering the event or my [LinkedIn article](https://www.linkedin.com/feed/update/urn:li:activity:7251669408786374658/).
+In May 18-19 2024, I had the incredible opportunity to participate in a hackathon at Universitat Autònoma de Barcelona. This event allowed me to collaborate with a talented team to tackle real-world challenges and innovate in meaningful ways. For more details, you can read the official [news article](https://www.3cat.cat/3cat/hackato-denginyeria-a-la-uab-per-resoldre-reptes-reals-de-les-empreses/video/6283117/) covering the event or my [LinkedIn article](https://www.linkedin.com/feed/update/urn:li:activity:7251669408786374658/).
 
 ---
 
